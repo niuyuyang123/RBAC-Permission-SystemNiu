@@ -1,0 +1,11 @@
+D:\项目\重新开始\ECommecer\ECommecerModel\bin\Debug\net6.0\ECommecerModel.deps.json
+D:\项目\重新开始\ECommecer\ECommecerModel\bin\Debug\net6.0\ECommecerModel.dll
+D:\项目\重新开始\ECommecer\ECommecerModel\bin\Debug\net6.0\ECommecerModel.pdb
+D:\项目\重新开始\ECommecer\ECommecerModel\obj\Debug\net6.0\ECommecerModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\项目\重新开始\ECommecer\ECommecerModel\obj\Debug\net6.0\ECommecerModel.AssemblyInfoInputs.cache
+D:\项目\重新开始\ECommecer\ECommecerModel\obj\Debug\net6.0\ECommecerModel.AssemblyInfo.cs
+D:\项目\重新开始\ECommecer\ECommecerModel\obj\Debug\net6.0\ECommecerModel.csproj.CoreCompileInputs.cache
+D:\项目\重新开始\ECommecer\ECommecerModel\obj\Debug\net6.0\ECommecerModel.dll
+D:\项目\重新开始\ECommecer\ECommecerModel\obj\Debug\net6.0\refint\ECommecerModel.dll
+D:\项目\重新开始\ECommecer\ECommecerModel\obj\Debug\net6.0\ECommecerModel.pdb
+D:\项目\重新开始\ECommecer\ECommecerModel\obj\Debug\net6.0\ref\ECommecerModel.dll
