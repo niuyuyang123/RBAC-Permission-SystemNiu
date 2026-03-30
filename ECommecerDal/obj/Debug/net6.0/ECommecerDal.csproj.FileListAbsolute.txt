@@ -1,0 +1,17 @@
+D:\项目\重新开始\ECommecer\ECommecerDal\bin\Debug\net6.0\ECommecerDal.deps.json
+D:\项目\重新开始\ECommecer\ECommecerDal\bin\Debug\net6.0\ECommecerDal.runtimeconfig.json
+D:\项目\重新开始\ECommecer\ECommecerDal\bin\Debug\net6.0\ECommecerDal.dll
+D:\项目\重新开始\ECommecer\ECommecerDal\bin\Debug\net6.0\ECommecerDal.pdb
+D:\项目\重新开始\ECommecer\ECommecerDal\bin\Debug\net6.0\ECommecerModel.dll
+D:\项目\重新开始\ECommecer\ECommecerDal\bin\Debug\net6.0\ECommecerModel.pdb
+D:\项目\重新开始\ECommecer\ECommecerDal\obj\Debug\net6.0\ECommecerDal.csproj.AssemblyReference.cache
+D:\项目\重新开始\ECommecer\ECommecerDal\obj\Debug\net6.0\ECommecerDal.GeneratedMSBuildEditorConfig.editorconfig
+D:\项目\重新开始\ECommecer\ECommecerDal\obj\Debug\net6.0\ECommecerDal.AssemblyInfoInputs.cache
+D:\项目\重新开始\ECommecer\ECommecerDal\obj\Debug\net6.0\ECommecerDal.AssemblyInfo.cs
+D:\项目\重新开始\ECommecer\ECommecerDal\obj\Debug\net6.0\ECommecerDal.csproj.CoreCompileInputs.cache
+D:\项目\重新开始\ECommecer\ECommecerDal\obj\Debug\net6.0\ECommece.03129B7D.Up2Date
+D:\项目\重新开始\ECommecer\ECommecerDal\obj\Debug\net6.0\ECommecerDal.dll
+D:\项目\重新开始\ECommecer\ECommecerDal\obj\Debug\net6.0\refint\ECommecerDal.dll
+D:\项目\重新开始\ECommecer\ECommecerDal\obj\Debug\net6.0\ECommecerDal.pdb
+D:\项目\重新开始\ECommecer\ECommecerDal\obj\Debug\net6.0\ECommecerDal.genruntimeconfig.cache
+D:\项目\重新开始\ECommecer\ECommecerDal\obj\Debug\net6.0\ref\ECommecerDal.dll
