@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ECommecerBll</name>
+    </assembly>
+    <members>
+        <member name="T:ECommecerBll.DTOs.BatchDeleteDto">
+            <summary>
+            批量删除请求
+            </summary>
+        </member>
+        <member name="T:ECommecerBll.DTOs.UserUpdateDto">
+            <summary>
+            更新用户信息请求
+            </summary>
+        </member>
+        <member name="P:ECommecerBll.DTOs.UserUpdateDto.UserName">
+            <summary>
+            用户名（可选，如果要修改用户名）
+            </summary>
+        </member>
+        <member name="P:ECommecerBll.DTOs.UserUpdateDto.Email">
+            <summary>
+            邮箱（可选）
+            </summary>
+        </member>
+        <member name="T:ECommecerBll.UserService">
+            <summary>
+            用户服务 - 处理用户相关的业务逻辑
+            </summary>
+        </member>
+        <member name="M:ECommecerBll.UserService.HashPassword(System.String)">
+            <summary>
+            密码加密
+            </summary>
+        </member>
+        <member name="M:ECommecerBll.UserService.ValidateUserAsync(System.String,System.String)">
+            <summary>
+            用户登录验证（返回完整 User 实体，用于生成 Token）
+            </summary>
+            <param name="userName">用户名</param>
+            <param name="password">密码</param>
+            <returns>验证通过返回 User 实体，否则返回 null</returns>
+        </member>
+        <member name="M:ECommecerBll.UserService.MapToResponseDto(ECommecerModel.User)">
+            <summary>
+            将 User 实体转换为 UserResponseDto
+            </summary>
+        </member>
+        <member name="M:ECommecerBll.UserService.MapToResponseDtoList(System.Collections.Generic.List{ECommecerModel.User})">
+            <summary>
+            将 User 实体列表转换为 UserResponseDto 列表
+            </summary>
+        </member>
+        <member name="M:ECommecerBll.UserService.RegisterAsync(ECommecerAPI.DTOs.UserRegisterDto)">
+            <summary>
+            用户注册
+            </summary>
+        </member>
+        <member name="M:ECommecerBll.UserService.LoginAsync(ECommecerAPI.DTOs.UserLoginDto)">
+            <summary>
+            用户登录（返回 DTO）
+            </summary>
+        </member>
+        <member name="M:ECommecerBll.UserService.GetAllUsersAsync">
+            <summary>
+            获取所有用户列表
+            </summary>
+        </member>
+        <member name="M:ECommecerBll.UserService.GetUserByIdAsync(System.Int32)">
+            <summary>
+            根据ID获取用户
+            </summary>
+        </member>
+        <member name="M:ECommecerBll.UserService.GetUserByUserNameAsync(System.String)">
+            <summary>
+            根据用户名获取用户
+            </summary>
+        </member>
+        <member name="M:ECommecerBll.UserService.GetActiveUsersAsync">
+            <summary>
+            获取所有启用状态的用户
+            </summary>
+        </member>
+        <member name="M:ECommecerBll.UserService.UserNameExistsAsync(System.String)">
+            <summary>
+            检查用户名是否存在
+            </summary>
+        </member>
+        <member name="M:ECommecerBll.UserService.UpdateUserAsync(System.Int32,ECommecerBll.DTOs.UserUpdateDto)">
+            <summary>
+            更新用户信息
+            </summary>
+        </member>
+        <member name="M:ECommecerBll.UserService.ChangePasswordAsync(System.Int32,System.String,System.String)">
+            <summary>
+            修改密码
+            </summary>
+        </member>
+        <member name="M:ECommecerBll.UserService.ChangeUserStatusAsync(System.Int32,System.Int32)">
+            <summary>
+            修改用户状态（启用/禁用）
+            </summary>
+        </member>
+        <member name="M:ECommecerBll.UserService.DeleteUserAsync(System.Int32)">
+            <summary>
+            删除用户
+            </summary>
+        </member>
+        <member name="M:ECommecerBll.UserService.BatchDeleteUsersAsync(System.Collections.Generic.List{System.Int32})">
+            <summary>
+            批量删除用户
+            </summary>
+        </member>
+        <member name="M:ECommecerBll.UserService.GetUserCountAsync">
+            <summary>
+            获取用户总数
+            </summary>
+        </member>
+        <member name="M:ECommecerBll.UserService.GetActiveUserCountAsync">
+            <summary>
+            获取启用用户数量
+            </summary>
+        </member>
+        <member name="T:ECommecerAPI.DTOs.UserRegisterDto">
+            <summary>
+            用户注册请求
+            </summary>
+        </member>
+        <member name="T:ECommecerAPI.DTOs.UserLoginDto">
+            <summary>
+            用户登录请求
+            </summary>
+        </member>
+        <member name="T:ECommecerAPI.DTOs.UserResponseDto">
+            <summary>
+            用户信息响应
+            </summary>
+        </member>
+        <member name="T:ECommecerAPI.DTOs.LoginResponseDto">
+            <summary>
+            登录成功响应
+            </summary>
+        </member>
+        <member name="T:ECommecerAPI.DTOs.ChangePasswordDto">
+            <summary>
+            修改密码请求
+            </summary>
+        </member>
+    </members>
+</doc>
